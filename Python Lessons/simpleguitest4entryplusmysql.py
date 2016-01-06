@@ -67,7 +67,7 @@ mydb.close
 print (result)
 
 cursor=mydb.cursor()
-cursor.execute("INSERT INTO testtable (name,age) VALUES ('Annie','27')")
+cursor.execute("INSERT INTO testtable (name,age) VALUES ('Grace','25')")
 cursor.execute('SELECT * FROM testtable')
 result = cursor.fetchall()
 mydb.commit()
