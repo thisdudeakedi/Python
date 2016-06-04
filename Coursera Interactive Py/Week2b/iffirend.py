@@ -1,6 +1,6 @@
 #faulty
 def greet(friend, money):
-    if friend :
+    if friend:
         print 'Hi!'
         money = money - 20
         return money
