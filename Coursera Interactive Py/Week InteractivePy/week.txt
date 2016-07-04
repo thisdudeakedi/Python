@@ -1,0 +1,12 @@
+Events
+-Input
+	button, text
+-keyboard
+	key up
+	key down
+-Mouse
+	click
+	frag
+-Timer
+
+Event Hander controls when an event is triggered(single threaded therefore uses a queue)
