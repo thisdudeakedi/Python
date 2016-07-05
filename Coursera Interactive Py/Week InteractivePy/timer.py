@@ -8,12 +8,11 @@ def tick():
 
 # Register handler
 #timer = simplegui.create_timer(1000, tick)
+
 t = 1 #counts down
 while t>0:
       tick()
       time.sleep(1) #waits
       
-#t = Timer(0.6, tick)
-
 # Start timer
 t.start()

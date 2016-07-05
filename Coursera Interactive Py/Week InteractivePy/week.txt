@@ -10,3 +10,13 @@ Events
 -Timer
 
 Event Hander controls when an event is triggered(single threaded therefore uses a queue)
+
+Simple GUI
+Program Structure
+-Globals (state)
+-Helper functions
+-Classes
+-Define Event Handers
+-Create Frame
+-Register Event Handers
+-Start Frame and Timers

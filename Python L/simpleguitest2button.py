@@ -1,5 +1,6 @@
-import tkinter as tk
-from tkinter import ttk
+import Tkinter as tk
+#from Tkinter
+import ttk
 win = tk.Tk()
 aLabel = ttk.Label(win, text='A Label')		#Adding a Label
 aLabel.grid(column=0,row=0)
