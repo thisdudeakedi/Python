@@ -5,7 +5,9 @@ def set_blue():
       bluebutton = frame.configure (bg = 'blue')
 
 def set_red():
-      redbutton = Button(text= 'change', bg = 'red')
+     redbutton=Button.configure(bg = 'red')
+
+      #redbutton = Button(text= 'change', bg = 'red')
 
 #frame attributes
 frame = Tk()
