@@ -59,7 +59,7 @@ multbutton = ttk.Button(frame, width = 12, text= 'Multiply', command=mult).grid(
 divbutton = ttk.Button(frame, width = 12, text= 'Division', command=div).grid(column = 0, row= 6)
 inputbutton = ttk.Button(frame, width = 12, text= 'Enter Operand', command=inp).grid(column = 0, row= 7)
 
-#intput using ttk input event
+#input using ttk input event
 Entered = ttk.Entry(frame, width=15, textvariable=inputentry).grid(column=1, row=7)
 
 frame.mainloop()
